@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bl"
+    tools:context="com.example.lameya.maa.memory">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="শ্রেণীবিন্যাস"
+        android:textSize="17sp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="নতুন যুক্ত করুন"
+        android:id="@+id/buttonAdd"
+        android:textSize="17sp"
+        android:layout_above="@+id/buttonView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#38e953" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সবগুলো দেখুন/পরিবর্তন করুন"
+        android:id="@+id/buttonView"
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#48c05a" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+
+        android:ems="10"
+        android:id="@+id/editTextName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/buttonAdd"
+        android:layout_alignEnd="@+id/buttonAdd" />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:spinnerMode="dropdown"
+        android:layout_alignBottom="@+id/editTextName"
+        android:layout_below="@+id/textView2" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="নাম"
+        android:id="@+id/textView7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="dd/mm/yyyy"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" "
+        android:ems="10"
+        android:id="@+id/editTextDesg"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="বর্ণনা"
+        android:id="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextNam"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:inputType="textMultiLine"
+        android:ems="15"
+
+        android:id="@+id/editTextSalary"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rectangle"
+        android:layout_above="@+id/buttonAdd"
+        android:layout_below="@+id/textView8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="ফোন"
+        android:ems="10"
+        android:id="@+id/editTextNam"
+        android:layout_below="@+id/editTextDesg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editTextDesg"
+        android:layout_alignEnd="@+id/editTextDesg" />
+
+    <!-- Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="ছবি  যুক্ত করুন "
+         android:id="@+id/button13"
+
+         android:layout_alignTop="@+id/textView7"
+         android:layout_above="@+id/textView8"
+         android:layout_alignRight="@+id/textView7"
+         android:layout_alignEnd="@+id/textView7"
+         android:layout_toEndOf="@+id/editTextDesg"
+         android:layout_toRightOf="@+id/editTextDesg" />-->
+
+
+</RelativeLayout>
+

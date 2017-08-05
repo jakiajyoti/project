@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="70dp"
+    tools:context="com.example.lameya.maa.pageinfo">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="দর্শনীয় স্থান"
+        android:textColor="#FF0E0E0E"
+        android:textSize="40sp"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView11" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" মাধবকুণ্ড জলপ্রপাত "
+        android:id="@+id/button3"
+        android:background="#76fc8f"
+        android:onClick="dd"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কালাপাহাড়"
+        android:id="@+id/buttonx"
+        android:background="#76fc8f"
+
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="লাউয়াছড়া জাতীয় উদ্যান"
+
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+
+        android:background="#4afd6b"
+        android:onClick="ee"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="রিসোর্টে বিবরন "
+        android:id="@+id/button7"
+        android:background="#51fdb0"
+        android:onClick="ff"
+        android:layout_above="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="খাবার বেবস্থা "
+        android:id="@+id/button8"
+        android:background="#97f8d9"
+        android:onClick="gg"
+        android:layout_above="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="জরুরি অবস্থা"
+        android:id="@+id/button9"
+        android:background="#85f1f1"
+        android:onClick="hh"
+        android:layout_above="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কেনাকাটা"
+        android:id="@+id/button10"
+        android:background="#85f1f3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

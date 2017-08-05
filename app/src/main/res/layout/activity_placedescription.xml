@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lameya.maa.placedescription"
+    android:background="@drawable/bl">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/s5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView2" />
+
+
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageView2">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" অবস্থা:"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="বারলেখার উপজেলা, মৌলভীবাজার, সিলেট"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="বিবরণ:"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="match_parent"
+        android:text="প্রকৃতির অপরূপ লীলাভূমি মৌলভীবাজার জেলার বড়লেখা উপজেলায় অবস্থিত বাংলাদেশের একমাত্র জলপ্রপাত মাধবকুণ্ড জলপ্রপাত। বাংলাদেশের বিভিন্ন এলাকা থেকে প্রতিদিন অসংখ্য পর্যটকের সমাগম ঘটে এই জলপ্রপাত দেখতে।সমতল থেকে প্রায় ২০০ ফুট উঁচু পাহাড়ের উপর থেকে জলরাশি এর গা বেয়ে অবিরাম ধারায় সাঁ সাঁ শব্দে নিচে পড়ছে। পানির এই সাঁ সাঁ শব্দ আপনাকে করবে রোমাঞ্চিত। পানির অবিরাম পতনের ফলে নিচে সৃষ্টি হয়েছে কুণ্ডের। আর কুণ্ডের প্রবাহমান স্রোতধারা শান্তির বারিধারার মতো মাধবছড়া দিয়ে প্রবাহিত হচ্ছে।
+মাধবকুণ্ডের নামকরণ সম্পর্কে কথিত আছে যে, শ্রীহট্টের রাজা গঙ্গাধ্বজ ওরফে গোবর্ধন পাথারিয়া পাহাড়ে একটি বিশ্রামাগার নির্মাণ শুরু করলে সেখানে ধ্যানমগ্ন অবস্থায় মাটির নিচে একজন সন্ন্যাসীকে দেখতে পান। তখন তিনি ওই সন্ন্যাসীর পদবন্দনা ও স্তূতি করলে সন্ন্যাসী তাকে নানা উপদেশসহ মধুকৃষ্ণা ত্রয়োদশ তিথিতে তাকে এ কুণ্ডে বিসর্জন দিতে নির্দেশ দেন। সন্ন্যাসী বিসর্জিত হওয়া মাত্র তিনবার মাধব, মাধব মাধব নামে দৈববাণী হয়। সম্ভবত এ থেকেই মাধবকুণ্ড নামের উৎপত্তি।
+ তবে এর বিপরীত মতও রয়েছে। মহাদেব বা শিবের পূর্বনাম মাধব এবং এর নামানুসারে তার আবির্ভাব স্থানের নাম মাধবকুণ্ড। এ কুণ্ডের পাশেই স্থাপন করা হয়েছে শিবমন্দির। যে পাহাড়টির গা বেয়ে পানি গড়িয়ে পড়ছে এ পাহাড়টি সম্পূর্ণ পাথরের। এর বৃহৎ অংশজুড়ে রয়েছে ছড়া। ছড়ার উপরের অংশের নাম গঙ্গামারা ছড়া আর নিচের অংশের নাম মাধবছড়া। পাহাড়ের উপর থেকে পাথরের ওপর দিয়ে ছুটে আসা পানির স্রোত দুই ভাগে বিভক্ত হয়ে হঠাৎ খাড়াভাবে উঁচু পাহাড় থেকে একেবারে নিচে পড়ে যায়। এতে দুটি ধারা সৃষ্টি হয়। একটি বড়, একটি ছোট। বর্ষাকালে ধারা দুটি মিশে যায়।
+জলরাশি যেখানে পড়ছে তার চতুর্দিকে পাহাড়, নিচে কুণ্ড। কুণ্ডের মধ্যভাগে অনবরত পানি পড়ছে। এই স্থান অনেক গভীর। কুণ্ডের ডান পাশে একটি পাথরের গহ্বর বা গুহার সৃষ্টি হয়েছে বিষ্ণুদাস সন্ন্যাসী মাধবকুণ্ডের পশ্চিমাংশে কমলা বাগান তৈরি করেন, সেই কমলা বাগান আজও রয়েছে।  "
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="কিভাবে যাব?"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="প্রথমে আপনাকে সিলেটে বারলেখার বাসে যেতে হবে এবং দুই ঘন্টা যেতে হবে। বোরোলেখ থেকে আপনাকে মাধবকুন্দা ইকো পার্ক গেটে যাওয়ার জন্য একটি অটো রিক্সা নিতে হবে।
+কিন্তু যদি আপনি ট্রেনে ভ্রমণ করেন তবে আপনাকে কুলাউড়া রেল স্টেশনে নেমে যেতে হবে এবং সেখানে থেকে আপনি মাধবকুন্ডাকে মাইক্রোবাস বা মিনিবাস দ্বারা এক ঘন্টার মধ্যে পৌঁছাতে পারবেন।
+ইকো পার্ক গেট থেকে আপনি জলপ্রপাত খুঁজে পেতে 15 মিনিটের জন্য পায়চারি করতে হবে"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" গতিপথ:"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:autoLink="all"
+        android:text=" https://www.google.com.bd/maps/dir/SUST,+University+Avenue,+Sylhet,+Sylhet+Division/Madhabkunda+Water+Fall,+Barlekha+Upazila,+Sylhet+Division/@24.706565,91.6725186,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3750556002144eab:0xe277e14dbca9f2ab!2m2!1d91.8318988!2d24.9172089!1m5!1m1!1s0x3751c4280c9e6fa7:0xb8d1994bb86f4f60!2m2!1d92.2283278!2d24.6403861?hl=en"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:text="মন্তব্য্\n দাও"
+            android:textSize="30sp"
+            android:textColor="#368E3A"
+            android:background="@drawable/button_front"
+            android:id="@+id/addreview"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="5dp"
+            android:text="মন্তব্য\nদেখুন"
+            android:textColor="#368E3A"
+            android:textSize="30sp"
+            android:background="@drawable/button_front"
+            android:id="@+id/review"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

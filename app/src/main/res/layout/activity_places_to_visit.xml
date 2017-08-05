@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.lameya.maa.PlacesToVisit"
+android:weightSum="1"
+    android:background="@drawable/plv">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.33"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spdivision"
+        android:spinnerMode="dialog"
+
+        android:prompt="@string/division_prompt"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:entries="@array/division_arrays">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_button_division"
+        android:background="@drawable/search_button"
+        android:text="বিভাগ"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.33"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spseason"
+        android:spinnerMode="dialog"
+
+        android:prompt="@string/season_prompt"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:entries="@array/season_arrays">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_button_season"
+        android:background="@drawable/search_button"
+        android:text="ঋতু "
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.33"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spdes"
+        android:spinnerMode="dialog"
+        android:prompt="@string/des_prompt"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:entries="@array/des_arrays">
+    </Spinner>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_button_des"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search_button"
+        android:text="ভ্রমণ "
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+</LinearLayout>

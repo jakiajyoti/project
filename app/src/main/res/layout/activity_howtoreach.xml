@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lameya.maa.howtoreach">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+
+        android:clickable="true"
+        android:autoLink="all"
+
+        android:text="কিভাবে যাওয়া যায়ঃ
+ঢাকা থেকে শ্রীমঙ্গলে এবং শ্রীমঙ্গল থেকে কিভাবে মৌলভীবাজারে কিভাবে পৌছাবেন ইতিমধ্যেই উল্ল্যেখ করা হয়েছে।
+দুসাই রিসোর্টে আপনি তিনভাবে পৌছাতে পারেন।
+\n
+১। ঢাকা থেকে সিলেটে আকাশপথে পৌছাতে প্রায় ৪৫ মিনিট সময় লাগবে। সিলেট থেকে রিসোর্টের গাড়িতে করে প্রায় ৭৫ কিলোমিটার পথ পাড়ি দিয়ে রিসোর্টে পৌছাতে আপনার প্রায় দেড় ঘণ্টা সময় লাগবে।
+\n
+২। সড়কপথে দুসাই রিসোর্টে পৌছাতে প্রায় পৌনে তিন ঘণ্টা থেকে চার ঘণ্টা সময় লাগবে। কুড়িল ফ্লাইওভার থেকে নতুন পূর্বাচল আবাসিক এলাকার মধ্যে দিয়ে কাঞ্চন সেতুতে পৌছাতে পাড়ি দিতে হবে ১২ কিলোমিটার পথ। এরপর কাঞ্চন সেতু থেকে রূপগঞ্জের ভুলতা মোড়ে পৌছাতে পাড়ি দিতে হবে ৭ কিলোমিটার পথ। ভুলতা মোড় থেকে হবিগঞ্জের মিরপুর মোড়ের দূরত্ব প্রায় ১৩৫ কিলোমিটার এবং সেখান থেকে শ্রীমঙ্গলের দূরত্ব ২৪ কিলোমিটার। শ্রীমঙ্গল থেকে মৌলভীবাজার শহর অভিমুখে দুসাই রিসোর্টে পৌছাতে আপনাকে পাড়ি দিতে হবে প্রায় ১৪ কিলোমিটার পথ।
+\n ৩। ‘পারাবত’ অথবা ‘কালিনী’ এক্সপ্রেস ট্রেনে আপনি সিলেটে পৌছাতে পারেন। এছাড়া ঢাকার বিমানবন্দর রেলস্টেশন থেকে শ্রীমঙ্গল স্টেশনে পৌছার পর রিসোর্টের নিজস্ব গাড়িতে প্রায় ১৫ কিলোমিটার পথ পাড়ি দিয়ে আপনি এই রিসোর্টে পৌছাতে পারেন।
+
+কিভাবে এইখানে পওছাবেন: মৌলভীবাজার জেলা
+ঢাকা থেকে সরা
+
+"
+
+        android:id="@+id/textView4"
+        android:layout_above="@+id/SCROLLER_ID"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

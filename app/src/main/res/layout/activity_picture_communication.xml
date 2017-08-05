@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lameya.maa.PictureCommunication"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.98">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:orientation="vertical"
+                >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/where"
+                    android:background="@drawable/where" />
+                <TextView
+                    android:id="@+id/textwhere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Where is"
+                    android:textAlignment="center"
+                    />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/how"
+                    android:background="@drawable/how"
+                    />
+                <TextView
+                    android:id="@+id/texthow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="How much"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:orientation="vertical"
+                >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/fare"
+                    android:background="@drawable/fare" />
+                <TextView
+                    android:id="@+id/textfare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Fare of"
+                    android:textAlignment="center"
+                    />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/price"
+                    android:background="@drawable/price"
+                    />
+                <TextView
+                    android:id="@+id/textprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="price of"
+                    android:textAlignment="center" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/distance"
+                    android:background="@drawable/distance"  />
+                <TextView
+                    android:id="@+id/textdistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="distance of"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.33">
+
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:id="@+id/busstation"
+                    android:background="@drawable/busstation" />
+                <TextView
+                    android:id="@+id/textbus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="bus station"
+                    android:textAlignment="center"    />
+
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:id="@+id/texi"
+                    android:background="@drawable/texi" />
+                <TextView
+                    android:id="@+id/texttexi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Taxi"
+                    android:textAlignment="center"      />
+
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:id="@+id/restuarants"
+                    android:background="@drawable/restuarants" />
+                <TextView
+                    android:id="@+id/textres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="restuarant"
+                    android:textAlignment="center"  />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.02"
+        android:background="#AAAAFF">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="83sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="83sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="83sp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/play"
+            android:text="play"/>
+    </LinearLayout>
+</LinearLayout>
+

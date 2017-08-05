@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.example.jyoti.tourism_1.TravelAgency"
+tools:showIn="@layout/activity_travel_agency">
+android:padding="20dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="0sp"
+        android:id="@+id/id"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="25sp"
+        android:textColor="#FF250EEE"
+        android:text="Name:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="28sp"
+        android:textColor="#FF070707"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="25sp"
+        android:text="Website:"
+        android:textColor="#FF250EEE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="28sp"
+        android:textColor="#FF070707"
+        android:id="@+id/add"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="25sp"
+        android:text="Email:"
+        android:textColor="#FF250EEE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="28sp"
+        android:textColor="#FF070707"
+        android:id="@+id/area"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="25sp"
+        android:text="Contact Information:"
+        android:textColor="#FF250EEE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textColor="#FF070707"
+        android:textSize="28sp"
+        android:id="@+id/contact"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/call"
+        android:layout_gravity="center"
+        android:id="@+id/call_1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_weight="0.1"
+        android:layout_marginTop="20dp"
+        android:text="Get Direction"
+        android:textColor="#368E3A"
+        android:background="#A7CD3C"
+        android:id="@+id/map"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:text="Add\n Review"
+            android:textSize="30sp"
+            android:textColor="#368E3A"
+            android:background="@drawable/button_front"
+            android:id="@+id/addreview"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="5dp"
+            android:text="Show \nReviews"
+            android:textColor="#368E3A"
+            android:textSize="30sp"
+            android:background="@drawable/button_front"
+            android:id="@+id/review"/>
+    </LinearLayout>
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

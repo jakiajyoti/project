@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lameya.maa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ll"
+        android:label="Explore Bangladesh"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Explore Bangladesh"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".listbefore" />
+        android:name=".logout"
+        android:label="@string/title_activity_logout"
+        android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".memory" />
+        <activity android:name=".ViewAllEmployee">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".memory" />
+        </activity>
+        <activity android:name=".ViewEmployee">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewAllEmployee" />
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".signup" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChittagongList"
+            android:label="@string/title_activity_chittagong_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SylhetList"
+            android:label="@string/title_activity_sylhet_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MuseumList"
+            android:label="@string/title_activity_museum_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RainyList"
+            android:label="@string/title_activity_rainy_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PlacesToVisit" />
+        <activity android:name=".map" />
+        <activity android:name=".Dhaka" />
+        <activity android:name=".pageinfo" />
+        <activity android:name=".placedescription" />
+        <activity android:name=".resort" />
+        <activity android:name=".foodsystem" />
+        <activity android:name=".howtoreach" />
+        <activity android:name=".PictureCommunication" />
+        <activity android:name=".AddReview" />
+        <activity android:name=".OfferOne"></activity>
+    </application>
+
+</manifest>

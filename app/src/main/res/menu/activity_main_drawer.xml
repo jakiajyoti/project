@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_d1"
+            android:icon="@drawable/aa"
+            android:title="বিভাগ" />
+        <item
+            android:id="@+id/nav_d2"
+            android:icon="@drawable/aa"
+            android:title="ঋতু " />
+        <item
+            android:id="@+id/nav_d3"
+            android:icon="@drawable/aa"
+            android:title="ভ্রমণ " />
+        <item
+            android:id="@+id/nav_d4"
+            android:icon="@drawable/aa"
+            android:title="মতামত" />
+        <item
+            android:id="@+id/nav_t11"
+            android:icon="@drawable/aa"
+            android:title="গুগল ম্যাপ" />
+        <item
+            android:id="@+id/nav_t12"
+            android:icon="@drawable/aa"
+            android:title="লগইন" />
+
+
+
+    </group>
+
+
+
+</menu>
